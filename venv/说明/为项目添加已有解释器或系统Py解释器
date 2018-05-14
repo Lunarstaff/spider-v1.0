@@ -1,0 +1,9 @@
+-为项目a添加已有解释器或系统Py解释器
+    File->Setings->Projects:[项目a名称]->Project Interpreter->
+        在解释器面板上，解释器选择下拉框右边有一个齿轮状按钮，点击后会看到[Add local][Show all]
+            Add local:添加本地解释器
+            Show all:查看所有已存在的解释器
+         选择Add local,在弹出的“Add local Interpreter”界面左则有三项：
+         [Virtualenv Environment][Conda Environment][System Interpreter]
+         大致一看就明白了吧，虚拟环境的，Conda环境的，操作系统的，
+         前面还说要在操作系统解释器和项目解释器分别安装第三方库，这下好了，其实项目也可以用系统的解释器。

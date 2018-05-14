@@ -1,0 +1,15 @@
+-urllib.request：
+    这是Python自带的库，不需要单独安装，它的作用是为我们打开url获取html的内容。
+    Python官方文档的介绍：
+        The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in
+        a complex world — basic and digest authentication, redirections, cookies and more.
+
+
+
+-BeautifulSoup：
+    是一个可以从HTML或XML文件中提取数据的Python库。
+    它能够通过你喜欢的转换器实现惯用的文档导航，查找，修改文档的方式。
+    Beautiful Soup会帮你节省数小时甚至数天的工作时间。安装比较简单：
+
+$pip install beautifulsoup4
+验证的方法，进入Python直接import一下，如果没有异常，那就说明安装成功了！
