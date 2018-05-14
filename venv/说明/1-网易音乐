@@ -13,3 +13,4 @@
 
 $pip install beautifulsoup4
 验证的方法，进入Python直接import一下，如果没有异常，那就说明安装成功了！
+
