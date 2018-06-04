@@ -1,0 +1,980 @@
+<!-- <html><head><title></title></head><body></body></html>  -->
+<!DOCTYPE HTML>
+<html>
+<!--
+Cross Builder V2.0
+page version: 
+by 网络媒体事业群办公室_商业体验中心
+合作请RTX shelleyhe
+-->
+<head>
+	<meta charset="gb2312">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="Keywords" content="奶粉 喂养">
+	<title>国人婴幼儿奶粉喂养状况调查报告</title>
+    <!-- http://mat1.gtimg.com/www/mb/cb2/global/assets/css/crossbuilder.css
+         ../../../global/assets/css/crossbuilder.css
+    -->
+    <link rel="stylesheet" type="text/css" href="http://mat1.gtimg.com/www/mb/cb2/global/assets/css/crossbuilder.css">
+   	<link rel="stylesheet" type="text/css" href="http://mat1.gtimg.com/www/mb/cb2/publish/prj_usual_1/assets/css/pbt_style_v.1.4.css">
+<link rel="stylesheet" type="text/css" href="http://mat1.gtimg.com/www/mb/cb2/publish/prj_usual_1/assets/css/mc_dianzan/dianzan_style_v1.0.css">
+    <!-- html5.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+        <script src="http://mat1.gtimg.com/www/mb/cb2/global/assets/js/tools/html5.js"></script>
+    <![endif]-->
+
+    <style>
+
+	        #frontPanel{
+            background-image:url(http://inews.gtimg.com/newsapp_ls/0/2506149387/0);
+        }
+			/* 背景颜色设置 */
+        html, .pbt_intro_wrapper.style-0 .box_icon{ background-color: #fafafa!important;}
+
+        /* 整体颜色设置 */
+        div,span,p,a, h2, h3,h4{color: #555555!important;}
+        h2,h3,h4{border-color:#555555!important;}
+        /* 针对财经频道 */
+        @media only screen and (max-width: 480px){
+            /* 针对财经频道 */
+            .pbt_container.size_full {margin: 0px auto 10px auto; }
+        }
+
+    </style>
+</head>
+
+<body data-src="">
+<div id='wx_pic' style='margin:0 auto;display:none;'><img src='http://inews.gtimg.com/newsapp_ls/0/231829058/0' /></div>
+<link rel="stylesheet" type="text/css" href="http://mat1.gtimg.com/www/mb/cb/publish/assets/css/cb_toolbar_v2.css"><div class="cb_toolbar" id="logoPanel"><div class="mod_inner"><div class="logo"><a href="http://news.qq.com" class="newslogo"></a></div><div class="link"><ul><li><a href="http://www.qq.com" target="_blank">腾讯网首页</a></li><li class="end"><a href="http://www.qq.com/map/" target="_blank">网站导航</a></li></ul></div>
+            <script language="JavaScript">
+                var hdPic ={url:location.href,title:"0",pic: [], pic1: []};
+                 var cbtb_url = "";
+                    var login = {
+                        loginSuccess: function(){
+                            ptlogin2_onClose();
+                            cbtb_init();
+                        }
+                    };
+            </script>
+            <div class="shareList">
+                <div class="share_btn">
+                    <span>分享到：</span>
+                </div>
+                    <ul class="menu-bd">
+                        <li class="share2weibo" id="cb_share2weibo" title="转播腾讯微博"><a href="javascript:void(0)" hidefocus="true" class="g-btn-b" bosszone="gqTweibo"></a></li>
+                        <li class="share2qzone" id="cb_share2qzone" title="分享到我的QQ空间"><a href="javascript:void(0)" hidefocus="true" class="g-btn-b" bosszone="gqTzone"></a></li>
+                        <li class="share2qq" id="cb_share2qq" title="分享到QQ好友"><a href="javascript:void(0)" hidefocus="true" class="g-btn-b" bosszone="gqTQQ"></a></li>
+                        <li class="share2sina" id="cb_share2sina" title="转播到新浪微博"><a href="javascript:void(0)" hidefocus="true" class="g-btn-b" bosszone="gqTsina"></a></li>
+                        <li class="share2wx" id="cb_share2wx" title="分享到微信"><a href="javascript:void(0)" hidefocus="true" class="g-btn-b" bosszone="gqTwx"></a></li>
+                        <li class="share2wxf" id="cb_share2wxf" title="分享到朋友圈"><a href="javascript:void(0)" hidefocus="true" class="g-btn-b" bosszone="gqTwxf"></a></li>
+                    </ul>
+
+                <div class="tb_wx_share" id="cb_share_div" style="display:none;">
+                        <div class="tb_wx_share_triangle" id="cb_ts_triangle"></div>
+                        <div class="tb_wx_share_left"><img src="http://inews.gtimg.com/newsapp_ls/0/2512797256/0"></div>
+                        <div class="tb_wx_share_right">
+                          <ul>
+                            <li class="a"><div></div><p>扫一扫二维码</p></li>
+                            <li class="i"></li>
+                            <li class="b"><div></div><p>点击右上角图标</p></li>
+                            <li class="i"></li>
+                            <li class="c" id="cb_ts_wx"><div></div><p>发送给微信好友</p></li>
+                            <li class="d" id="cb_ts_wxf"><div></div><p>分享到朋友圈</p></li>
+                          </ul>
+                        </div>
+                    </div>
+            </div>
+            <script language="JavaScript" src="http://mat1.gtimg.com/www/mb/cb/publish/assets/js/cb_share_v1.js"></script>
+        </div><div class="tb_login_content">
+                <div id="tb_login_content_in" style="display:none;">
+                    <a href="javascript:void(0);" id="http_login">
+                        [登录]
+                    </a>
+                </div>
+                <div id="tb_login_content_out" style="display:none;">
+                    <span>
+                        您好，
+                        <i id="tb_qq_uid">
+                        </i>
+                    </span>
+                    <a href="javascript:void(0);" id="http_logout">
+                        [退出]
+                    </a>
+                </div>
+            </div>
+            <div id="login_div" class="login_div">
+                <iframe id="login_frame" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div id="overlay"></div>
+        </div>
+        <script language="JavaScript" src="http://imgcache.qq.com/ptlogin/ac/v9/js/ptloginout.js"></script>
+        <script language="JavaScript" src="http://mat1.gtimg.com/www/mb/cb/publish/assets/js/cbtb_qq_wx_userlogin_v1.js" charset="utf-8"></script>
+        <script language="JavaScript">
+            cbtb_init();
+        </script><!-- Just For Mobile : FrontPage -->
+<div id="frontPanel" class="pbt_front_container p_front pbt_m_index anim">
+	<!-- 设置对齐方式:'align_left', 'align_mid', 'align_right' -->
+    <div class="pf_content align_mid">
+        <div class="pf_logo ani show">
+            <div class="pf_logo_box">
+                <img src="">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="pf_title ani show">
+            <div class="pf_title_box">
+                <h2 class="COLOR_TITLE_STYLE"></h2>
+            </div>
+        </div>
+    </div>
+    <!-- 向上滑动 : 固定 Bottom-Pos  -->
+    <div class="pbt_fup"></div>
+</div>
+<!-- Main Content -->
+<div class="pbt_main_container pbt_m_main anim main_content">
+    <!-- 段落导航-Nav -->
+    <div class="pbt_container size_nav" style="position:relative">
+        <div class="main_nav">
+            <div class="box-btnMobilefold">
+                <a class="btn-fold none-bgImg" style="background-color:#ADADAD" id="btnParaMobileFold">
+                    <!-- fill 颜色：data-activefontcolor -->
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="33px" height="31px" viewBox="0 0 33 31" enable-background="new 0 0 33 31" xml:space="preserve" class="nav-icon">
+                         <g> <g> <path fill-rule="evenodd" clip-rule="evenodd" fill="#FF0000" d="M21.214,11.923H0v7.154h21.214V11.923z M0,23.847V31h33v-7.153H0 z M30,0H0v7.154h30V0z" style="fill:#FFFFFF;"/> </g> </g>
+                    </svg>
+                </a>
+            </div>
+            <ul id="paraNav"
+                 data-fontcolor="FFFFFF"
+                 data-bgcolor="ADADAD"
+                 data-activefontcolor="FFFFFF"
+                 data-activebgcolor="363636"
+            >
+                <li>
+                    <a class="action_top" data-target="JS_Anchor_Top"> 返回顶部 <em>></em></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pbt_container size_full">
+        <div class="pbt_one_grid">
+            <div class="pbt_img_wrap one init-banner">
+                <img class="MobileOrPC lazyCB" data-size="" data-original="" data-mobile-src="http://inews.gtimg.com/newsapp_ls/0/2487035523/0" data-mobile-size="4000x1537" data-pc-src="http://inews.gtimg.com/newsapp_ls/0/2487034862/0" data-pc-size="4000x1537" >
+            </div>
+        </div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_intro_wrapper style-1">
+            <!-- 背景颜色 : 如果为 Default 则不设置 "background-color"；边框颜色：如果为 Default 则不设置 "border-color" -->
+            <div class="box_wrapper" style="background-color:#F1F1F1; border-color:#Default;">
+                <div class="box_icon top"><img src=""></div>
+                <div class="box_icon bottom"><img src=""></div>
+                <div class="pbt_text_wrap pc-style">                    
+                    <p>
+                        <!-- 标题颜色 及 标题文字 -->
+                        <span class="title" style="color:#ffffff!important; background-color:#4B4B4B!important">前  言</span>
+                        <!-- PC端文字详情 -->
+                        科学喂养，让宝宝健康成长，这是家长们的必修课，而“奶粉”是必修课里的重要主题。中国家长如何给宝宝选奶粉？喂养习惯有何特点？腾讯新闻《事实说报告》联合调查5万多在线用户，用理性的数据描绘国人婴幼儿奶粉喂养现状。
+                    </p>
+                </div>
+                <div class="pbt_text_wrap mobile-style">
+                    <p>
+                        <!-- 标题颜色 及 标题文字 -->
+                        <span class="title" style="color:#ffffff!important; background-color:#4B4B4B!important">前  言</span>
+                        <!-- Mobile端文字详情 -->
+                        科学喂养，让宝宝健康成长，这是家长们的必修课，而“奶粉”是必修课里的重要主题。中国家长如何给宝宝选奶粉？喂养习惯有何特点？腾讯新闻《事实说报告》联合调查5万多在线用户，用理性的数据描绘国人婴幼儿奶粉喂养现状。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pbt_container anchor_para">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                       <img src=""> 
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_normal_size" style="color:#E74C3C!important;">国产奶粉or洋奶粉，这是个问题？</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487007322/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>母乳喂养更有利于宝宝的成长。而根据调查数据显示，有多达53.0%的父母，会在孩子0-6个月期间，就选择进行奶粉喂养；但只有不足1成的父母会长时间坚持纯母乳喂养孩子。由此可见，奶粉成为绝大多数父母在宝宝出生后需要操心的“头等大事”。</p><p><br/></p><p>Tips：根据世界卫生组织建议婴儿出生后的头6个月，应该坚持纯母乳喂养，之后可以适当补充辅食，最好继续母乳喂养至2岁或更久。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487010256/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>选择奶粉和宝宝的体质到底是什么关系？在调查中关于“中国宝宝和外国宝宝体质是否有差别”的问题中，有高达52.7%的宝爸宝妈选择了体质有差别；而在“进口奶粉是否适合中国宝宝体质”的调查中，选择“说不清”的父母比例最高，为51.0%。看来，家长们虽然大多认为中外宝宝体质有差别，但在选择奶粉时关于进口奶粉和自己宝宝的体质是否合适其实并不是很清楚。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487013001/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>在国人眼中，无论是购买进口奶粉亦或是国产奶粉都并非十全十美。调查数据显示，监测标准（82.9%）、奶源品质（82.5%）位于宝爸宝妈认为“国产奶粉不足之处”的前两名。而在“进口奶粉的不足之处”的调查中，调查者担心最多的两点是“在国内买到假货”（78.6%）和“购买不方便，供应不上，容易断奶（43.3%）”。由此可见，在父母眼中，无论是国产奶粉还是进口奶粉，都有其弊端，家长们也是多重因素考虑，慎重选择。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487013635/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>在对国产奶粉拥趸的调查中，“奶粉适合中国宝宝的体质”成为国产奶粉最大的优势，其比例为68.8%，可见选择适合的奶粉才是宝爸宝妈选择国产奶粉的首要原因。有39.1%的被调查者选择“支持国货”而购买国产奶粉，这一数据仅次于选择“适合中国宝宝体质”的占比。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2512708594/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>在能提升国人对国产奶粉信心的调查中，“监管更为严格，处罚更加严厉”成为大家关注的焦点，达到78.8%。而“提供更严格的认证标准”也成为调查者认为可以提升信心的重要措施之一，其比例为71.9%。可见，对于国产奶粉的关注，宝爸宝妈还是最关注品质。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div><div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- line wrapper -->
+            <div class="pbt_sperate_line_wrap pbt_line_bold"></div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+    <div class="pbt_container anchor_para">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                       <img src=""> 
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_normal_size" style="color:#E74C3C!important;">奶粉品质成为影响奶粉选择的重要因素</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2512730435/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>宝爸宝妈为了宝宝可以喝上好奶粉，在选购上也是慎重选择，多重考量。调查显示，在众多影响因素中，影响年轻父母选择奶粉的三大因素分别是“奶粉质量”、“是否适合宝宝体质”、“产地”。另外，“价格”和“购买是否方便”是父母们考虑较少的因素。毕竟，父母都想给孩子们最好的。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2512725213/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>婴幼儿奶粉作为配方奶粉，里面添加的多种成分是否有益于宝宝的健康，这是大多数父母都关心的问题。在对待奶粉中是否添加“甜味剂”（香精香料、麦芽糊精、蔗糖等）的调查中，有83.6%的父母会选择“无添加甜味剂”的奶粉。而在奶粉中是否添加如DHA、胆碱等“功能性物质”的选择时，则有近八成宝爸宝妈会选择有添加的。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487015294/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>没有优质奶源，难出优质奶粉，优质的奶源是好奶粉的第一步。优质奶源那么多，大家最青睐哪一个？数据显示，大部分网友更倾向于选择国外奶源地，不过依旧有6.7%的网友选择了中国东北奶源地。这里网友们对不同奶源地认可程度的差异，未必说明了奶源地之间存在优劣之分，差异可能和网友们对不同奶源地的知晓、认知程度有关。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487016231/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>数据表明，仅有4.9%的宝爸宝妈会经常更换奶粉品牌，59.1%的调查者偶尔更换。而在“更换奶粉品牌原因”的调查中，宝宝食用后出现不适（53.4%）成为了父母更换品牌的最重要原因。毕竟孩子的健康是父母最大的牵挂，而选择适合宝宝体质的奶粉也是宝爸宝妈成熟喂养的关键。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div><div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- line wrapper -->
+            <div class="pbt_sperate_line_wrap pbt_line_bold"></div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+    <div class="pbt_container anchor_para">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                       <img src=""> 
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_normal_size" style="color:#E74C3C!important;">加班挣的奶粉钱，是如何花掉的？</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487017871/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>在当下，“奶粉钱”成为有娃家庭花销的第一大部分。数据显示，购买奶粉价格在201-300元/罐的奶粉成为大多数家庭的选择，占到了53.7%，而近5成宝爸宝妈每月用于奶粉消费金额在800元以上。对于宝爸宝妈来说，都希望给宝宝最好的，价格不能代表什么，选择更适合宝宝的奶粉才是对宝宝最好的爱。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487019048/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>调查显示，月收入在500-20000元之间的被调查者八成左右月消费奶粉金额都超过500元。随着收入增加，月消费奶粉金额超千元的比例也越来越大，其中月收入在20000元以上的调查者中，有53.29%的宝妈宝爸每月所花的奶粉钱超千元，而月收入不足千元者（此处考虑家庭收入），有20%左右的被调查者每月的奶粉消费超千元。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487019909/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>根据调查发现，消费者更愿意在那些能够“看得见，摸得着”的渠道购买奶粉，母婴专卖店成为宝爸宝妈们最爱购买奶粉的渠道，占到了54.3%。选择在国内电商网站购买奶粉的比例占23.7%。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487020462/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>打折！赠品！女性在面对这些营销手段时，往往会比男性更容易买买买！但是，根据调查发现，在面对奶粉商家的折扣、赠品等增值服务中，男女调查者的表现并无明显差异。毕竟，奶粉品质才是宝爸宝妈最看中的，选择适合宝宝体质的奶粉，让宝宝健康成长，这些才是父母最大的心愿。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container anchor_para">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                       <img src=""> 
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_normal_size" style="color:#E74C3C!important;">你喂奶粉的“姿势”对吗？</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487082597/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>关于如何正确的进行奶粉喂养，新晋宝爸宝妈似乎都是“一头雾水”。其中，21-25岁年龄段的年轻父母，认为自己奶粉喂养的知识“存在不足”的占比最高，为88.51%。而且，奶粉喂养相关知识的掌握程度并未随着年龄的增加而增加，尤其是30岁以上的年龄层，掌握知识“存在不足”的比例并无明显区别。由此可见，宝爸宝妈应该多向母婴专家请教，多与其他宝爸宝妈学习交流，这样才能用更合适的方式去喂养宝宝。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487083773/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>尽管宝爸宝妈普遍缺乏奶粉喂养知识，但学习热情十分高涨。调查显示，通过网络或书籍学习成为宝爸宝妈们获取奶粉喂养知识最重要的渠道，占比达到57.6%。其次，家长长辈“传道受业”（21.6%）也是父母们掌握知识的重要渠道之一。专业喂养方式的学习是有必要的，在此基础上，适合自己宝宝的喂养方式才是最重要的。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487085008/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>根据调查显示，对于奶粉的喂养知识，宝爸宝妈们最头疼的莫过于“如何选择奶粉”，这一比例高达67.1%。尽管移动互联网时代信息触手可得，可是对于真正的喂养“干货”依旧十分稀缺。如何选择奶粉，宝爸宝妈需要结合宝宝自身特点，找适合宝宝的奶粉才是核心关键点。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487086402/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>花“重金”购买的奶粉，如果喂养方法不对，也会给宝宝的健康打折。冲奶水温过高（27.5%）、溶解不充分（19.5%），成为了宝爸宝妈常犯的错误之一。不过，值得高兴的是，有30.3%的调查者认为自己没有犯过奶粉喂养的错误。无论如何，选择合适的奶粉是第一步，做好喂养方式是关键第二步，双向确保，来保证宝宝健康成长。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title">总结</h2>
+                <div class="pbt_inline_info">
+                    <p>1、调研结果显示中国家长对婴幼儿进行科学喂养的意识和知识尚不足，出现了母乳喂养比例低、奶粉喂养方式错误的问题，根据世界卫生组织建议婴儿出生后的头6个月，应该坚持纯母乳喂养，之后可以适当补充辅食，最好继续母乳喂养至2岁或更久。</p><p><br/></p><p>2、具体到奶粉 “添加”成分上，宝爸宝妈的选择表现出对“甜味剂”的恐惧，和对“功能性物质”的青睐。多数宝爸宝妈会选择“无添加甜味剂”的奶粉，而对奶粉中是否添加DHA等“功能性物质”选择时，宝爸宝妈多数会选择有添加的。</p><p><br/></p><p>3、对于什么是好奶粉，宝爸宝妈选择奶粉的几大因素分别是“奶粉质量”、“是否适合中国宝宝体质”、“奶源地”。在奶粉选择上，奶粉品质是宝爸宝妈考虑的首要因素，其次，家长们大多认为中外宝宝体质有差别，奶粉需要适合中国宝宝体质；优质的奶源地从源头上保证了奶粉的品质。国内日趋严格的奶粉行业监管和审核标准保证了奶粉的质量；北纬47度黄金奶源地保证了优质的奶源，在此基础上更适合中国宝宝体质的奶粉配方，共同构成了优质奶粉的关键要素。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div><div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- line wrapper -->
+            <div class="pbt_sperate_line_wrap pbt_line_bold"></div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+    <div class="pbt_container anchor_para">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                       <img src=""> 
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_normal_size" style="color:#E74C3C!important;">调查对象基本信息</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- image wraper -->
+            <div class="pbt_img_wrap al-mid">
+                <a>
+                    <img class="lazyCB"  data-size="750x1334" data-original="http://inews.gtimg.com/newsapp_ls/0/2487102520/0">
+                </a>
+            </div>
+            <!-- image title wraper -->
+            <div class="pbt_img_title_wrap">
+                <p></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>本次共对54818人进行了有效调研，其中男女性别比例分别是33.2%和66.8%。</p><p><br/></p><p>在年龄分布上，比例最高的年龄范围主要在26-30岁，共占被调查者的44.4%。31-40岁群体占比位居第二，为41.1%。</p><p><br/></p><p>在被调查者的学历分布上，初中及以下学历的被调查者占比9.2%；大学本科的被调查者占比34.6%，也是学历最为集中的部分。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container anchor_para">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                       <img src=""> 
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_normal_size" style="color:#E74C3C!important;">算法附录</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>问卷上除涉国人奶粉喂养相关问题外，网友还填写了职业、地域、出生日期等基础信息。《事实说》使用spss统计软件以及腾讯问卷后台，将这些数据进行汇总和交叉分析，得出以上这份《2017年国人婴幼儿奶粉喂养状况调查报告》。</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="pbt_container  ">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <div class="box_table">
+                    <div class="box_table-td single icon" style="display:none">
+                        <img src="">
+                    </div>
+                    <div class="box_table-td full">
+                        <h2 class="pbt_small_size" style="color:#34495E!important;">制作人员名单</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>    
+    </div>
+    <div class="pbt_container">
+        <div class="pbt_one_grid">
+            <!-- text wraper -->
+            <div class="pbt_text_wrap">
+                <h2 class="pbt_inline_title"></h2>
+                <div class="pbt_inline_info">
+                    <p>策划：赵子杰</p><p>撰稿：靳帅帅、余怡婷</p><p>设计：何昊雨</p><p>专题：徐祝青</p><p>商务：徐婷婷<br/></p><p>统筹：李敏</p><p>数据来源：事实说调查</p><p>调查支持平台：腾讯问卷（wj.qq.com）</p><p><br/></p><p><strong>事实说报告 飞鹤乳业 联合出品</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>    <!-- 拉新模块 -->
+    <div class="pbt_container mobile-style">
+        <div class="pbt_module_promotion">
+            <a href="#">
+                <div class="box_table">
+                    <div class="box_table-td single">
+                        <div class="img-wrapper">
+                            <img>
+                        </div>                        
+                    </div>
+                    <div class="box_table-td full">
+                        <span class="text"></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="padding-bottom-lv6"></div>
+    </div>
+    <!-- 版权页  -->
+    <div id="copyrightPanel">
+        <div class="just-pc">
+            <p>Copyright &copy; 1998 - 2017 Tencent. All Rights Reserved</p>
+            <p>腾讯公司 版权所有</p>
+        </div>
+                <div class="just-mobile">
+            <!-- data-init : if (默认设置 'default'), else if (用户上传设置 'user'), else if (不添加设置 'null') -->
+                <div class="box-img" data-init="user">
+                <img class="lazyCB" data-size="640x364" data-original="http://inews.gtimg.com/newsapp_ls/0/231830816/0">
+            </div>
+        </div>
+            </div>
+    <!-- 版权页 End  -->
+</div>
+<!-- Button : Goto Top -->
+<div id="pbt_backToTop" style="background-color:#eeeeee; visibility:visible;"></div>
+
+<script src="http://mat1.gtimg.com/www/mb/cb2/global/assets/js/tools/jquery-1.10.2.min.js"></script>        <!-- 必需加载 ：jQuery -->
+<script src="http://mat1.gtimg.com/www/mb/cb2/global/assets/js/tools/cbtools.1.0.js"></script>              <!-- Global Tools -->
+<script src="http://mat1.gtimg.com/www/mb/cb2/global/assets/js/tools/jquery.lazyload.js"></script>          <!-- 必需加载 ：lazyload -->
+<script src="http://mat1.gtimg.com/www/mb/cb2/global/assets/js/tools/require.js"></script>
+<script src="http://mat1.gtimg.com/www/mb/cb/publish/assets_auto/js/api_v2.js" charset="utf-8"></script>
+<!-- 微信登陆态获取-->
+<script src="http://mat1.gtimg.com/www/mb/cb2/publish/js/comment_v3.js"></script>
+
+<script type="text/javascript">
+var device = '';
+var chartDataArr = [];
+
+$(function() {
+		try{
+		//分享
+        var wxShareUrl = "http://news.qq.com/cross/20171124/JDE172W9.html";
+		if(window.location.host.indexOf('m.')=="0" || wxShareUrl==""){
+			var wxShareUrl= window.location.href;
+			wxShareUrl = wxShareUrl.replace(window.location.hash,"");
+			wxShareUrl = wxShareUrl.replace(window.location.search,"");
+		}
+		cbApi.wexin("http://inews.gtimg.com/newsapp_ls/0/231829058/0",wxShareUrl,"国人婴幼儿奶粉喂养状况调查：如何选奶粉，是宝爸宝妈最大的难题。","奶粉，你选什么");
+        //腾讯直播qqlive app------------------------------
+        if(isQQLiveApp()){
+            wxShareUrl += '?';
+            initQQLiveApp();
+        }
+	}catch(e){}
+    cbTools.tencentNewsLinkFix();
+    var page = {
+        init : function(){
+            requirejs.config({
+                baseUrl: 'http://mat1.gtimg.com/www/mb/cb2/publish/prj_usual_1/assets/js/',        //* Set : base-root :: http://mat1.gtimg.com/www/mb/cb2/publish/prj_usual_1/assets/js/
+                paths: {
+                    "global-tools": "http://mat1.gtimg.com/www/mb/cb2/global/assets/js/tools"   //* Set : my-define-src`
+                }
+            });
+
+            // Start loading the main app file.
+            requirejs(['Main_v3.8']);
+        }
+    }
+
+    page.init();
+
+    function isQQLiveApp (){
+        var u = navigator.userAgent.toLowerCase();
+        if(u.indexOf('qqlivebrowser') > -1 || u.indexOf('qqlivebroadcast') > -1 ){
+            return true;
+        }
+        return false;
+    }
+    function initQQLiveApp(){
+        //alert(typeof TenvideoJSBridge )
+        var obj = {
+                "hasRefresh":false,
+                "hasShare":true,
+                "hasFollow":false,
+                "shareInfo":{
+                "title":"国人婴幼儿奶粉喂养状况调查：如何选奶粉，是宝爸宝妈最大的难题。",
+                "subTitle":"国人婴幼儿奶粉喂养状况调查：如何选奶粉，是宝爸宝妈最大的难题。",
+                "singleTitle":"国人婴幼儿奶粉喂养状况调查：如何选奶粉，是宝爸宝妈最大的难题。",
+                "content":"奶粉，你选什么",
+                "contentTail":"",
+                "imageUrl":"http://inews.gtimg.com/newsapp_ls/0/231829058/0",
+                "url":wxShareUrl
+                }
+            }
+        if (typeof TenvideoJSBridge == "object") {
+            TenvideoJSBridge.invoke("setMoreInfo", obj);
+        } else {
+            if(document.addEventListener){
+                document.addEventListener("onTenvideoJSBridgeReady", function(){
+                    TenvideoJSBridge.invoke("setMoreInfo", obj);
+                }, false);
+            } else if(document.attachEvent){
+                document.attachEvent("onTenvideoJSBridgeReady", function(){
+                    TenvideoJSBridge.invoke("setMoreInfo", obj);
+                });
+            }
+        }
+    }
+});
+
+</script>
+	<script language="javascript" src="http://pingjs.qq.com/ping.js"></script>
+	<script language="javascript">
+	if(typeof(pgvMain) == 'function') pgvMain();
+	</script>
+	</body>
+</html>
+<!--[if !IE]>|xGv00|d03669ec31f6025044124e7035d4aede<![endif]-->
