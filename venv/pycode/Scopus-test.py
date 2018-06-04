@@ -26,6 +26,8 @@ format 方法回顾：【:<><><>,<>,<>】
 import requests
 import bs4
 
+
+
 # 步骤1：从网络上获取大学排名网页内容
 def getHTMLText(url):
     try:
@@ -48,10 +50,19 @@ def fillUnivList(ulist,html):
 
 # 步骤3：利用数据结构展示并输出结果
 def printUnivList(ulist,num):
-    print("{:^10}\t{:^10}\t{:^10}\t{:^10}".format("排名", "学校名称", "地区", "总分"))
+    '''
+    中英文混合输出时，采用中文字符的空格填充 chr(12288)
+    :param ulist:
+    :param num:
+    :return:
+    '''
+
+    #生成输出模板
+    tplt = "{0:^5}\t{1:{4}^10}\t{2:<6}\t{3:<10}"
+    print(tplt.format("排名", "学校名称", "地区", "总分", chr(12288)))
     for i in range(num):
         u = ulist[i]
-        print("{:^10}\t{:^10}\t{:^10}\t{:^10}".format(u[0], u[1], u[2], u[3]))
+        print(tplt.format(u[0], u[1], u[2], u[3], chr(12288)))
 
 
 def main():
