@@ -97,7 +97,7 @@ def printGoodsList(ilt):
         print(tplt.format(count, g[0], g[1]))
 
 def main():
-    goods = "键盘"
+    goods = "鼠标"
     depth = 2 # 爬取深度
     start_url = "https://s.taobao.com/search?q=" + goods
     # url示例：https://s.taobao.com/search?q=键盘
